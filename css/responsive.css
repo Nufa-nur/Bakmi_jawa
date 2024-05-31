@@ -1,0 +1,283 @@
+/* Laptop */
+@media (max-width : 1366) {
+	html {
+		font-size: 75%;
+	}
+
+}
+
+/* Tablet */
+@media (max-width: 800px) {
+	html {
+		font-size: 62.5%;
+		overflow-x: hidden;
+	}
+
+	body {
+		overflow-x: hidden;
+	}
+
+	.top-navbar .navbar a img {
+		display: flex;
+		margin-left: 5rem;
+	}
+
+	.top-navbar .navbar button {
+		display: flex;
+		margin-right: 5rem;
+	}
+
+	.top-navbar #navbarNav .nav-item {
+		margin-top: 2rem;
+	}
+
+	/* About */
+	.about-section-box .inner-column p {
+		font-size: 1.8rem;
+	}
+
+	.about-section-box .inner-column a, .menu-box a {
+		font-size: 2rem;
+		margin-top: 2rem;
+	}
+
+	.about-section-box .row {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.about-kru .row {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.about-section-box .row img {
+		width: 2rem;
+		height: auto;
+	}
+
+	.inner-column h1 {
+		font-size: 22px;
+	}
+
+	/* Menu */
+	.menu-box .text-center h1, #customer h1 {
+		font-size: 3rem
+	}
+
+	.menu-box .text-center p, #customer p {
+		font-size: 1.8rem;
+	}
+
+	#menu .menu-items .menu-item .card h5 {
+		font-size: 2rem;
+		font-weight: bold;
+	}
+
+	#menu .menu-items .menu-item .card p {
+		font-size: 1.5rem;
+	}
+
+	/* Qt-background */
+	.qt-background p, .qt-background .lead {
+		font-size: 3rem;
+		color: rgb(255, 255, 255);
+	}
+
+	.qt-background p:hover, .qt-background .lead:hover {
+		color: #000000;
+	}
+
+	/* Contact Info */
+	.contact-info-box .col-md-4 {
+		margin-bottom: 15px;
+	}
+
+	/* Footer */
+	.footer-area .col-lg-3 .f-social {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	/* Halaman Kontak */
+	.contact-box .heading-title h2 {
+		font-size: 3rem
+	}
+
+	.contact-box .heading-title p {
+		font-size: 1.8rem;
+	}
+
+	/* Reservasi */
+	#reservasi .container-table {
+		display: flex;
+		flex-direction: column;
+	}
+
+	/* Halaman Kontak */
+	.map-full iframe {
+		max-width: 50rem;
+		height: auto;
+	}
+
+}
+
+/* Phone */
+@media (max-width: 550px) {
+
+	html {
+		font-size: 55%;
+		overflow-x: hidden;
+	}
+
+	body {
+		margin: 0;
+		padding: 0;
+		overflow-x: hidden;
+	}
+
+	.top-navbar .navbar a img {
+		display: flex;
+		margin-left: 5rem;
+		width: 10rem;
+		height: auto;
+	}
+
+	.top-navbar .navbar a img:hover {
+		box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	}
+
+	.top-navbar .navbar button {
+		display: flex;
+		margin-right: 5rem;
+	}
+
+	.top-navbar #navbarNav .nav-item {
+		margin-top: 2rem;
+	}
+
+	/* Slides */
+	#carouselExampleAutoplaying .carousel-inner .caraousel-item {
+		display: flex;
+		width: 18rem;
+		height: auto;
+	}
+
+	/* About */
+	.about-section-box .inner-column p, .about-section-box .inner-pt p {
+		font-size: 1.8rem;
+	}
+
+	.about-section-box .inner-column a, .menu-box a {
+		font-size: 2rem;
+		margin-top: 2rem;
+	}
+
+	.heading-kru h2 {
+		font-size: 3rem
+	}
+
+	.about-kru .row {
+		display: block;
+		flex-direction: column;
+	}
+
+	.about-section-box .row img {
+		width: 22rem;
+		height: auto;
+	}
+
+	/* Qt-background */
+	.qt-background p, .qt-background .lead {
+		font-size: 3rem;
+		color: rgb(255, 255, 255);
+	}
+
+	.qt-background p:hover, .qt-background .lead:hover {
+		color: #000000;
+	}
+
+	/* Menu */
+	.menu-box .text-center h1, #customer h1, #menu .text-center h1 {
+		font-size: 3rem
+	}
+
+	.menu-box .text-center p, #customer p, #menu .text-center p {
+		font-size: 1.8rem;
+	}
+
+	.menu-box .menu-items, #menu .menu-items {
+		width: 100%;
+		/* display: flex; */
+		justify-content: center;
+		/* flex-direction: column; */
+		align-items: center;
+		margin: 0 auto;
+		gap: 5px;
+	}
+
+	#menu .menu-items .menu-item .card, #menu-box .menu-items .menu-item .card {
+		display: flex;
+		align-items: center;
+		width: 19rem;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#menu .menu-items .menu-item .card h5 {
+		font-size: 1.8rem;
+		font-weight: bold;
+	}
+
+	#menu .menu-items .menu-item .card p {
+		font-size: 1.5rem;
+	}
+
+	.heading-swiper h3 {
+		font-size: 3rem
+	}
+
+	.heading-swiper p {
+		font-size: 1.8rem;
+	}
+
+	/* Customer */
+	.swiper .swiper-wrapper {
+		display: flex;
+		width: 20rem;
+	}
+
+	/* Contact Info */
+	.contact-info-box .col-md-4 {
+		margin-bottom: 15px;
+		margin-left: 10px;
+	}
+
+	.contact-info-box .col-md-4 p {
+		font-size: 2rem;
+	}
+
+	/* Footer */
+	.footer-area .col-lg-3 .f-social {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	/* Halaman Kontak */
+	.contact-box .heading-title h2 {
+		font-size: 3rem
+	}
+
+	.contact-box .heading-title p {
+		font-size: 1.5rem;
+	}
+
+	/* Halaman Kontak */
+	.map-full iframe {
+		max-width: 40rem;
+		height: auto;
+	}
+}
